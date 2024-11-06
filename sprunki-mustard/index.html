@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sprunki Mustard: Incredibox Sprunkstard Online, Create Sprunky Beats Free</title>
+	<meta name="description"
+		content="Dive into the world of Sprunki Mustard, an Incredibox Sprunki Mustard mod that turns music-making into a quirky mustard-inspired adventure!">
+	<link rel="canonical" href="https://sprunkiincredibox.com/sprunki-mustard/" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://s.sprunkiincredibox.com/img/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://s.sprunkiincredibox.com/img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://s.sprunkiincredibox.com/img/icon/favicon-16x16.png">
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="manifest" href="/manifest.json">
+	<script src="../tailwind.js"></script>
+	<link rel="stylesheet" href="../tailwind.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	<meta name="theme-color" content="#FF0000">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Sprunki Incredibox">
+
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1522458956946675"
+		crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 font-sans leading-relaxed">
+	<header class="bg-gradient-to-r from-red-800 to-red-900 text-white py-4 fixed top-0 left-0 w-full z-50 shadow-lg">
+		<div class="container mx-auto px-4">
+			<nav class="flex justify-between items-center">
+				<div class="logo">
+					<a href="../" class="flex items-center text-xl font-bold">
+						<i class="fas fa-music mr-2 hidden sm:block"></i> Sprunki Incredibox</a>
+				</div>
+				<ul class="nav-links hidden md:flex space-x-6">
+					<li><a href="#play-now" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-1"></i>
+							Play Sprunki</a></li>
+					<li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-1"></i>
+							Mod</a></li>
+					<li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i
+								class="fas fa-download mr-1"></i> Download</a></li>
+					<li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300"
+							title="Sprunki Characters"><i class="fas fa-users mr-1"></i> Characters</a></li>
+				</ul>
+				<div class="burger md:hidden cursor-pointer">
+					<div class="line1 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+					<div class="line2 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+					<div class="line3 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div
+		class="mobile-nav fixed top-0 left-0 w-full h-screen bg-red-900 z-40 transform -translate-x-full transition duration-300 ease-in-out">
+		<ul class="flex flex-col items-center justify-center h-full space-y-8 text-white text-2xl">
+			<li><a href="#play-now" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-2"></i>
+					Play Sprunki</a></li>
+			<li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i
+						class="fas fa-download mr-2"></i> Download</a></li>
+			<li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-2"></i>
+					Mod</a></li>
+			<li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300"><i
+						class="fas fa-users mr-2"></i> Characters</a></li>
+		</ul>
+	</div>
+
+	<main class="pt-16">
+		<!-- Main Game Section with iframe -->
+		<section id="play-now" class="bg-white py-8">
+			<div class="container mx-auto px-4">
+				<div class="flex flex-col lg:flex-row gap-8">
+					<!-- Game Container -->
+					<div class="lg:w-2/3">
+						<h1 class="text-4xl font-bold text-center mb-4 text-red-800">Free Sprunki Mustard Online:
+							Incredibox Sprunki Mustard Mod</h1>
+						<div
+							class="game-container relative w-full max-w-4xl mx-auto w-full h-[398px] rounded-lg shadow-2xl overflow-hidden">
+							<iframe id="game-iframe"
+								src="https://cocrea.world/@TrystanKyllo/IncrediboxSprunkstardIfsprunkiwereinmustard" frameborder="0"
+								class="w-full h-[600px] rounded-lg shadow-2xl"
+								style="transform: scale(1.21) translate(2px, -70px)"></iframe>
+							<button id="fullscreen-btn"
+								class="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center">
+								<i class="fas fa-expand mr-2"></i> Fullscreen
+							</button>
+							<button id="exit-fullscreen-btn"
+								class="fixed top-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm z-50 hidden">
+								<i class="fas fa-compress mr-2"></i> Exit
+							</button>
+							<a href="https://sprunkiincredibox.com/" id="domain-watermark"
+								class="absolute top-1/2 right-0 transform rotate-90 translate-y-[-50%] text-white hidden">SprunkiIncredibox.com</a>
+						</div>
+
+						<!-- Final Description Section -->
+						<section class="bg-white py-16">
+							<div class="container mx-auto px-4">
+								<h2 class="text-4xl font-bold text-center mb-12 text-red-800">What is Sprunki Mustard?
+								</h2>
+								<p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+									Sprunki Mustard Mod is a creative fan-made mod within the Incredibox universe,
+									blending the music-mixing gameplay of the original with a wild, mustard-inspired
+									twist. Designed to entertain both Incredibox fans and newcomers alike, this quirky
+									mod embraces the hilariously unexpected. With characters dressed in mustard-themed
+									outfits, players are invited to take part in Pinky's birthday party, where laughter,
+									music, and of course, mustard, run rampant.
+								</p>
+								<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+									Unlike the traditional Incredibox, Incredibox Sprunki Mustard offers an immersive
+									world brimming with chaotic, mustard-centric visuals, sound effects, and party vibes
+									that make music-making feel fresh and entertaining. It's ideal for those looking for
+									an upbeat and lighthearted music experience with plenty of laughs.
+								</p>
+							</div>
+						</section>
+
+
+					</div>
+
+					<!-- Explore More Section -->
+					<div class="lg:w-1/3">
+						<h2 class="text-4xl font-bold text-center mb-14 text-red-800">Explore More</h2>
+						<div id="recommended-games-container" class="grid grid-cols-2 gap-4"></div>
+						<!-- JavaScript will populate this container -->
+					</div>
+					<script type="module">
+						import { renderRecommendedGames } from '../js/explore.js';
+						document.addEventListener('DOMContentLoaded', renderRecommendedGames);
+					</script>
+				</div>
+			</div>
+			</div>
+		</section>
+
+
+		<!-- How to Play Section -->
+		<section class="bg-white py-16">
+			<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold text-center mb-12 text-red-800">How to Play Incredibox
+					Sprunki Mustard</h2>
+				<p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+					In Sprunki Mustard mod, players can dive straight into the party atmosphere and
+					start mixing beats with simple drag-and-drop controls. Here's a breakdown of how to
+					get the most out of this mod:
+				</p>
+
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Select a Mustard-Themed
+							Character</h3>
+						<p class="text-gray-600">Start by choosing from a range of characters dressed in
+							hilarious, mustard-themed outfits. Each character has its own unique sound,
+							allowing you to layer different beats and melodies to create an energetic
+							track.</p>
+					</div>
+
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Create Your Custom Mustard
+							Mix</h3>
+						<p class="text-gray-600">Simply drag characters onto the mixing board, layering
+							sounds to build a lively mustard-themed music track. Experiment with
+							different character placements for a variety of sound combinations.</p>
+					</div>
+
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Unlock Unique Mustard
+							Effects</h3>
+						<p class="text-gray-600">This mod adds an extra level of fun with special
+							effects triggered by certain combinations of characters. Watch the screen
+							come to life with hilarious mustard animations, wild dance moves, and
+							interactive elements that keep each session fresh.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Why Play Section -->
+		<section class="bg-gradient-to-b from-gray-200 to-white py-16">
+			<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold text-center mb-12 text-red-800">Why Play Incredibox Sprunki Mustard?</h2>
+				<p class="text-xl text-center mb-10 text-gray-600">Experience the joy of music creation with a quirky mustard twist! Here's what makes this mod special:</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="bg-white p-8 rounded-2xl shadow-lg">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Perfect for Casual and Experienced Players</h3>
+						<p class="text-gray-600">Whether you're new to Incredibox or a seasoned fan, Sprunki Mustard game offers an accessible, enjoyable experience with layers of creativity and humor. It's suitable for players of all ages who appreciate lighthearted entertainment.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Nostalgic Yet New</h3>
+						<p class="text-gray-600">The game's retro-inspired graphics and playful visuals give it a nostalgic feel, while the mustard theme provides an original twist. This balance of familiarity and novelty makes it perfect for anyone looking for a fresh take on Incredibox.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Lighthearted Music Creation</h3>
+						<p class="text-gray-600">In contrast to more serious music mods, Sprunki Mustard mod is all about having fun and experimenting with sounds. The high-energy beats, quirky sound effects, and fun animations create an atmosphere where players can let loose and enjoy themselves.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">No Additional Costs</h3>
+						<p class="text-gray-600">Incredibox Sprunki Mustard, like many fan mods, is free to play, making it an accessible way for players to explore Incredibox's world without additional fees. With no in-app purchases or ads, you can focus on crafting music and enjoying the mustard-filled fun.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+		<!-- Tips Section -->
+		<section class="tips bg-gradient-to-b from-white to-gray-100 py-16" id="tips">
+			<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold text-center mb-12 text-red-800">Tips for Mastering Sprunki Mustard Mod
+				</h2>
+				<p class="text-xl text-center mb-10 text-gray-600">If you're ready to dive into the world of mustard
+					madness, here are some tips to get the most out of the mod:</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+					<div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Experiment with Different Character
+							Combinations</h3>
+						<p class="text-gray-600">Unlocking Incredibox Sprunki Mustard's hidden effects requires a bit of
+							experimentation. Mix and match characters to see what fun surprises you can unveil.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Focus on Timing</h3>
+						<p class="text-gray-600">Like Incredibox, Sprunki Mustard's music creation relies on rhythm. Pay
+							attention to your timing to achieve smoother, more cohesive mixes.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Watch for Visual Cues</h3>
+						<p class="text-gray-600">The game's interactive effects add an extra layer of fun. Keep an eye
+							out for visual cues to anticipate upcoming effects and make the most of your mix.</p>
+					</div>
+					<div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Try Short Sessions</h3>
+						<p class="text-gray-600">Sprunki Mustard's quick setup is ideal for short, enjoyable play
+							sessions. Experiment with different sound combinations over multiple sessions to keep things
+							fresh.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ Section -->
+		<section class="faq bg-white py-16" id="faq">
+			<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold text-center mb-12 text-red-800">Frequently Asked Questions about
+					Incredibox Sprunki Mustard</h2>
+				<div class="space-y-8 max-w-4xl mx-auto">
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">What is Sprunki Mustard Incredibox?</h3>
+						<p class="text-gray-700">Sprunki Mustard Incredibox is a fan-made mod of Incredibox, offering a
+							unique twist on music-making by integrating quirky mustard-themed characters, sound effects,
+							and interactive visuals.</p>
+					</div>
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">How can I play Sprunki Mustard Mod?</h3>
+						<p class="text-gray-700">You can play Sprunki Mustard mod on our site. It's browser-based, so
+							you can access it without downloads on most devices.</p>
+					</div>
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Who created Incredibox Sprunki Mustard?
+						</h3>
+						<p class="text-gray-700">While the mod draws from Incredibox's original mechanics, it was
+							developed by a passionate fan community, adding a fresh perspective to the beloved game.
+							Thanks to @Ploybin for the concept and original work on Incredibox Sprunkstard, bringing "If
+							Sprunki were in Mustard" to life.</p>
+					</div>
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Is Sprunki Mustard Mod suitable for all
+							ages?</h3>
+						<p class="text-gray-700">Yes, Sprunki Mustard's playful style and simple mechanics make it
+							accessible for players of all ages, from kids to adults.</p>
+					</div>
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Is Sprunki Mustard Incredibox available for
+							mobile play?</h3>
+						<p class="text-gray-700">While it is primarily browser-based, many Incredibox mods, including
+							Sprunki Mustard Incredibox, are accessible on mobile devices through compatible websites.
+						</p>
+					</div>
+					<div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl shadow-md">
+						<h3 class="text-2xl font-semibold mb-4 text-red-700">Does Incredibox Sprunki Mustard require any
+							downloads?</h3>
+						<p class="text-gray-700">Incredibox Sprunki Mustard is a fan-made mod that runs directly in the
+							browser, so there's no need to download any files. However, check that your browser is
+							updated to ensure smooth gameplay.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Join the Community Section -->
+		<section class="ready-to-play bg-gradient-to-r from-red-800 to-red-900 text-white py-20" id="ready-to-play">
+			<div class="container mx-auto px-4 text-center">
+				<h2 class="text-4xl font-bold text-center mb-12 text-white">Join the Mustard Party: Play Sprunki Mustard
+					Incredibox Now!</h2>
+				<p class="text-xl mb-10 max-w-2xl mx-auto">
+					For fans of both music and playful mod experiences, Sprunki Mustard game is a fantastic way to enjoy
+					Incredibox with a humorous twist. This lighthearted mod invites players to embrace their creativity
+					and make hilarious, mustard-themed music creations. Whether you're a fan of Incredibox or just
+					looking for a unique way to spend your time, Incredibox Sprunki Mustard is a great way to have fun,
+					experiment with music, and embrace a bit of playful chaos. So, grab your characters, start mixing,
+					and let the mustard-fueled party begin!
+				</p>
+				<a href="#game-iframe"
+					class="bg-yellow-400 text-red-900 font-bold text-xl py-4 px-10 rounded-full hover:bg-yellow-300 transition duration-300 inline-block hover:shadow-lg transform hover:-translate-y-1">
+					Start Your Sprunki Mustard Adventure
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="bg-gray-800 text-white py-12">
+		<div class="container mx-auto px-4">
+			<p class="text-center">&copy; 2024 SprunkiIncredibox.com. All rights reserved. Embrace the Sprunki spirit!
+			</p>
+		</div>
+		<div class="container mx-auto px-4 mt-4">
+			<p class="text-center"><a href="https://github.com/qiayue/SprunkiIncredibox"
+					class="text-white hover:text-yellow-400 transition duration-300">Sprunki Incredibox Github</a></p>
+		</div>
+		<div class="language-selector mt-8">
+			<p class="text-center mb-4">Choose your language:</p>
+			<ul class="flex justify-center space-x-4">
+				<li><a href="../" hreflang="en" class="text-white hover:text-yellow-400 transition duration-300">English</a>
+				</li>
+				<li><a href="../ko/" hreflang="ko" class="text-white hover:text-yellow-400 transition duration-300">한국어</a></li>
+				<li><a href="../ru/" hreflang="ru" class="text-white hover:text-yellow-400 transition duration-300">Русский</a>
+				</li>
+				<li><a href="../pt/" hreflang="pt"
+						class="text-white hover:text-yellow-400 transition duration-300">Português</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script type="module">
+		import { enterFullscreen, exitFullscreen, handleFullscreenChange, autoEnterFullscreen } from '../fullscreen.js';
+
+		const fullscreenBtn = document.getElementById('fullscreen-btn');
+		const exitFullscreenBtn = document.getElementById('exit-fullscreen-btn');
+		const gameIframe = document.getElementById('game-iframe');
+		const gameContainer = document.querySelector('.game-container');
+		const domainWatermark = document.getElementById('domain-watermark');
+
+		fullscreenBtn.addEventListener('click', () => {
+			enterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+
+		exitFullscreenBtn.addEventListener('click', () => {
+			exitFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+
+		document.addEventListener('fullscreenchange', () => {
+			handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+		document.addEventListener('webkitfullscreenchange', () => {
+			handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+		document.addEventListener('mozfullscreenchange', () => {
+			handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+		document.addEventListener('MSFullscreenChange', () => {
+			handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+
+		window.addEventListener('load', () => {
+			autoEnterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+		});
+
+		const navSlide = () => {
+			const burger = document.querySelector('.burger');
+			const nav = document.querySelector('.nav-links');
+			const navLinks = document.querySelectorAll('.nav-links li');
+
+			burger.addEventListener('click', () => {
+				nav.classList.toggle('nav-active');
+
+				navLinks.forEach((link, index) => {
+					if (link.style.animation) {
+						link.style.animation = '';
+					} else {
+						link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+					}
+				});
+
+				burger.classList.toggle('toggle');
+			});
+		}
+
+		navSlide();
+
+		// Service Worker
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function () {
+				navigator.serviceWorker.register('/sw.js').then(function (registration) {
+					console.log('ServiceWorker registration successful with scope: ', registration.scope);
+				}, function (err) {
+					console.log('ServiceWorker registration failed: ', err);
+				});
+			});
+		}
+	</script>
+	<div style="display:none">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-2XQY73C38G"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+
+			gtag('config', 'G-2XQY73C38G');
+		</script>
+		<script defer data-domain="sprunkiincredibox.com" src="https://click.pageview.click/js/script.js"></script>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird: One-Tap Challenge in Sprunki Incredibox Free Online</title>
+    <meta name="description" content="Experience the thrill of Flappy Bird to test your reflexes and precision. Tap to fly through the pipes and achieve the highest score! Experience Flappy Bird for free on Sprunki Incredibox.">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s.sprunkiincredibox.com/img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://s.sprunkiincredibox.com/img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://s.sprunkiincredibox.com/img/icon/favicon-16x16.png">
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://sprunkiincredibox.com/flappy-bird/" />
+    <script src="../tailwind.js"></script>
+    <link rel="stylesheet" href="../tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta name="theme-color" content="#FF0000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Sprunki Incredibox">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1522458956946675"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 font-sans leading-relaxed">
+    <header class="bg-gradient-to-r from-red-800 to-red-900 text-white py-4 fixed top-0 left-0 w-full z-50 shadow-lg">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="../" class="flex items-center text-xl font-bold">
+                        <i class="fas fa-music mr-2 hidden sm:block"></i> Sprunki Incredibox</a>
+                </div>
+                <ul class="nav-links hidden md:flex space-x-6">
+                    <li><a href="#play-now" class="hover:text-yellow-400 transition duration-300"><i
+                                class="fas fa-play mr-1"></i> Play Sprunki</a></li>
+                    <li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i
+                                class="fas fa-play mr-1"></i> Mod</a></li>
+                    <li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i
+                                class="fas fa-download mr-1"></i> Download</a></li>
+                    <li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300"
+                            title="Sprunki Characters"><i class="fas fa-users mr-1"></i> Characters</a></li>
+                </ul>
+                <div class="burger md:hidden cursor-pointer">
+                    <div class="line1 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                    <div class="line2 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                    <div class="line3 bg-white h-0.5 w-6 my-1 transition duration-300"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div
+        class="mobile-nav fixed top-0 left-0 w-full h-screen bg-red-900 z-40 transform -translate-x-full transition duration-300 ease-in-out">
+        <ul class="flex flex-col items-center justify-center h-full space-y-8 text-white text-2xl">
+            <li><a href="#play-now" class="hover:text-yellow-400 transition duration-300"><i
+                        class="fas fa-play mr-2"></i> Play Sprunki</a></li>
+            <li><a href="../download/" class="hover:text-yellow-400 transition duration-300"><i
+                        class="fas fa-download mr-2"></i> Download</a></li>
+            <li><a href="../mod/" class="hover:text-yellow-400 transition duration-300"><i class="fas fa-play mr-2"></i>
+                    Mod</a></li>
+            <li><a href="../sprunki-characters/" class="hover:text-yellow-400 transition duration-300"><i
+                        class="fas fa-users mr-2"></i> Characters</a></li>
+        </ul>
+    </div>
+
+    <main class="pt-16">
+        <!-- Main Game Section -->
+        <section id="play-now" class="bg-white py-8">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h1 class="text-4xl font-bold text-center mb-4 text-red-800">Free Flappy Bird Online: Conquer the One-Tap Challenge on Sprunki Incredibox</h1>
+                        <div class="game-container relative w-full max-w-4xl mx-auto">
+                            <iframe id="game-iframe" src="https://i2v.app/flappybird/"
+                                frameborder="0" class="w-full h-[600px] rounded-lg shadow-2xl"></iframe>
+                            <button id="fullscreen-btn"
+                                class="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm transition duration-300 hover:bg-opacity-80 flex items-center">
+                                <i class="fas fa-expand mr-2"></i> Fullscreen
+                            </button>
+                            <button id="exit-fullscreen-btn"
+                                class="fixed top-4 right-4 bg-black bg-opacity-60 text-white border-none py-2 px-4 rounded cursor-pointer text-sm z-50 hidden">
+                                <i class="fas fa-compress mr-2"></i> Exit
+                            </button>
+                            <a href="https://sprunkiincredibox.com/" id="domain-watermark"
+                                class="absolute top-1/2 right-0 transform rotate-90 translate-y-[-50%] text-white hidden">SprunkiIncredibox.com</a>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3">
+                        <h2 class="text-4xl font-bold text-center mb-14 text-red-800">Explore More</h2>
+                        <div id="recommended-games-container" class="grid grid-cols-2 gap-4"></div>
+                        <!-- JavaScript will populate this container -->
+                    </div>
+                    <script type="module">
+                        import { renderRecommendedGames } from '../js/explore.js';
+                        document.addEventListener('DOMContentLoaded', renderRecommendedGames);
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is Flappy Bird Section -->
+        <section class="bg-white py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">What is Flappy Bird?</h2>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-gray-600 mb-8">
+                        Flappy Bird is a thrilling free-to-play game that invites players to navigate a bird through a series of narrow gaps between green pipes. By tapping the screen or clicking the mouse, players make the bird flap its wings, gaining altitude while working against the relentless pull of gravity. The primary objective? Pass through as many pipes as possible without crashing. Each successful navigation earns the player a point, but the challenge is deceptive—just one miscalculated tap can lead to a collision, forcing the player to restart their journey from zero.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Origins Section -->
+        <section class="bg-gradient-to-b from-gray-50 to-white py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Flappy Bird: The Origins of a Viral Sensation</h2>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-gray-600">
+                        The rise of Flappy Bird is a captivating story in itself. Created by the talented Vietnamese developer Dong Nguyen, the game first launched on the iOS App Store in May 2013 but only gained modest traction initially. However, by early 2014, Flappy Bird skyrocketed to fame, becoming one of the most downloaded games in app store history. Its nostalgic pixel art, reminiscent of beloved titles like Super Mario, combined with its punishing gameplay captivated millions. In a surprising turn, Nguyen decided to remove the game from app stores, citing concerns about its addictive nature, which only added to its mystique.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="bg-white py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Key Features of Flappy Bird</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Easy-to-Learn, Hard-to-Master Controls</h3>
+                        <p class="text-gray-600">The beauty of Flappy Bird lies in its straightforward mechanics. Players control the bird with just a single tap, making it incredibly easy to understand but challenging to master. The simplicity encourages players to focus on timing and precision, keeping them engaged and entertained.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Addictive Gameplay</h3>
+                        <p class="text-gray-600">What keeps players coming back to Flappy Bird is its addictive challenge. While navigating through pipes may seem simple, the required timing is precise, making it easy to fail. This continuous cycle of attempts and failures creates an engaging loop, motivating players to improve their skills and achieve higher scores.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Nostalgic Graphics and Soundtrack</h3>
+                        <p class="text-gray-600">Flappy Bird is known for its retro graphics and sound effects, evoking memories of classic arcade games. The charming visuals and soothing soundscape enhance the gaming experience, immersing players in a whimsical world that invites them to play just one more round.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Score-Based Challenge</h3>
+                        <p class="text-gray-600">Flappy Bird features a simple scoring system where players earn points for each pipe successfully navigated. This score-based challenge makes the game appealing to those who thrive on competition, whether trying to beat their personal best or compare scores with friends.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">All-Age Accessibility</h3>
+                        <p class="text-gray-600">Flappy Bird's uncomplicated design and engaging gameplay make it suitable for players of all ages. Whether you're a child or an adult, the game offers quick bursts of fun without any in-app purchases, ensuring a true free-to-play experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Play Section -->
+        <section class="bg-gradient-to-b from-gray-200 to-white py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">How to Play Flappy Bird on Various Devices</h2>
+                <p class="text-gray-600 text-center mb-8 max-w-4xl mx-auto">
+                    Flappy Bird is designed for simplicity across all platforms, whether you're on a mobile device, tablet, or computer.
+                    No matter your platform, Flappy Bird challenges players to remain patient and focused as they attempt to navigate increasingly tricky obstacles.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Mobile Devices</h3>
+                        <p class="text-gray-600">To play Flappy Bird on a mobile device, simply tap the screen to make the bird flap upward. Timing your taps is crucial for guiding the bird through the gaps in the pipes.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Computers</h3>
+                        <p class="text-gray-600">If you're playing on a desktop or laptop, you can click the mouse or press the spacebar to control the bird. Just like on mobile, the goal is to maneuver through the openings without hitting any pipes. The quick descent of the bird means each tap only offers a brief lift, so mastering your timing is essential.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section class="tips bg-white py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Tips and Tricks for Mastering Flappy Bird</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Embrace the Rhythm</h3>
+                        <p class="text-gray-600">Success in Flappy Bird largely hinges on timing and rhythm. By establishing a consistent tapping rhythm, players can guide the bird smoothly through the pipes, enhancing their chances of success.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Keep Calm and Focused</h3>
+                        <p class="text-gray-600">Flappy Bird's notorious difficulty can be frustrating, leading to mistakes. Maintaining composure and concentrating on precise timing will help improve your performance and reduce crashes.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Use Peripheral Vision</h3>
+                        <p class="text-gray-600">As you progress, it's beneficial to glance slightly ahead of the bird using your peripheral vision. Anticipating upcoming pipes can make it easier to prepare for each obstacle, improving your overall navigation.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Practice in Short Sessions</h3>
+                        <p class="text-gray-600">Given Flappy Bird's quick gameplay, practicing in short bursts is an effective strategy. This keeps the experience fresh and minimizes frustration that can arise from extended attempts.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Learn to Control Your Taps</h3>
+                        <p class="text-gray-600">Flappy Bird rewards strategic tapping rather than constant flapping. Sometimes, letting the bird fall slightly before tapping again can provide better control, enabling you to navigate tight spaces more effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq bg-gradient-to-r from-gray-50 to-gray-100 py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Frequently Asked Questions About Flappy Bird</h2>
+                <div class="space-y-8 max-w-4xl mx-auto">
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Why Did Flappy Bird Become So Popular?</h3>
+                        <p class="text-gray-700">Flappy Bird's popularity stems from its simple yet challenging mechanics. Players are drawn to the ease of understanding the game, combined with its difficulty, which makes each success feel rewarding. The urge to outscore friends adds to its addictive nature.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Can I Still Play Flappy Bird?</h3>
+                        <p class="text-gray-700">Although the original Flappy Bird was removed from app stores, various web-based versions and unofficial apps exist, allowing players to enjoy the classic gameplay experience today.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Who Created Flappy Bird?</h3>
+                        <p class="text-gray-700">Flappy Bird was developed by Nguyen Ha Dong, a Vietnamese game designer, and launched in 2013. It reached peak popularity in 2014, topping app store charts before being voluntarily removed.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">How Can I Get Better at Flappy Bird?</h3>
+                        <p class="text-gray-700">Improving your skills in Flappy Bird revolves around practice, timing, and rhythm. Concentrating on the timing of each tap rather than rushing will help enhance control and increase your scores.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Is There an End to Flappy Bird?</h3>
+                        <p class="text-gray-700">Flappy Bird is an endless game with no definitive conclusion. The objective is to achieve the highest score by navigating through as many pipes as possible without crashing.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4 text-red-700">Can Flappy Bird Be Played Offline?</h3>
+                        <p class="text-gray-700">Yes! Many versions of Flappy Bird can be downloaded and played offline. Once installed, you can enjoy the game without an internet connection, making it perfect for travel or commutes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="bg-gradient-to-r from-red-800 to-red-900 text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-8">Ready to Take on the Challenge? Play Flappy Bird Now!</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">The timeless appeal of Flappy Bird lies in its straightforward gameplay and high replay value. Stripped of complex levels or in-app purchases, the game hones in on pure skill and persistence. Today, Flappy Bird stands as a beloved icon of gaming, illustrating how simplicity and challenge can forge a memorable experience.</p>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">If you're ready to test your skills, jump into Flappy Bird! Its easy-to-learn mechanics, nostalgic visuals, and captivating gameplay will challenge your patience and reflexes.</p>
+                <a href="#play-now" class="bg-yellow-400 text-red-900 font-bold text-xl py-4 px-10 rounded-full hover:bg-yellow-300 transition duration-300">
+                    Play Flappy Bird Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <p class="text-center">&copy; 2024 SprunkiIncredibox.com. All rights reserved. Embrace the Sprunki spirit!</p>
+        </div>
+        <div class="container mx-auto px-4 mt-4">
+            <p class="text-center"><a href="https://github.com/qiayue/SprunkiIncredibox" class="text-white hover:text-yellow-400 transition duration-300">Sprunki Incredibox Github</a></p>
+        </div>
+        <div class="language-selector mt-8">
+            <p class="text-center mb-4">Choose your language:</p>
+            <ul class="flex justify-center space-x-4">
+                <li><a href="../" hreflang="en"
+                        class="text-white hover:text-yellow-400 transition duration-300">English</a></li>
+                <li><a href="../ko/" hreflang="ko"
+                        class="text-white hover:text-yellow-400 transition duration-300">한국어</a></li>
+                <li><a href="../ru/" hreflang="ru"
+                        class="text-white hover:text-yellow-400 transition duration-300">Русский</a></li>
+                <li><a href="../pt/" hreflang="pt"
+                        class="text-white hover:text-yellow-400 transition duration-300">Português</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { enterFullscreen, exitFullscreen, handleFullscreenChange, autoEnterFullscreen } from '../fullscreen.js';
+
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        const exitFullscreenBtn = document.getElementById('exit-fullscreen-btn');
+        const gameIframe = document.getElementById('game-iframe');
+        const gameContainer = document.querySelector('.game-container');
+        const domainWatermark = document.getElementById('domain-watermark');
+
+        fullscreenBtn.addEventListener('click', () => {
+            enterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        exitFullscreenBtn.addEventListener('click', () => {
+            exitFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        document.addEventListener('fullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('webkitfullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('mozfullscreenchange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+        document.addEventListener('MSFullscreenChange', () => {
+            handleFullscreenChange(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        window.addEventListener('load', () => {
+            autoEnterFullscreen(gameContainer, gameIframe, fullscreenBtn, exitFullscreenBtn, domainWatermark);
+        });
+
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+            const navLinks = document.querySelectorAll('.nav-links li');
+
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
+
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                });
+
+                burger.classList.toggle('toggle');
+            });
+        }
+
+        navSlide();
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <div style="display:none">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XQY73C38G"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-2XQY73C38G');
+        </script>
+        <script defer data-domain="sprunkiincredibox.com" src="https://click.pageview.click/js/script.js"></script>
+    </div>
+</body>
+
+</html>
